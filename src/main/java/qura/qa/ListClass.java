@@ -39,7 +39,6 @@ public class ListClass {
         removeList(9);
         removeList(1);
         System.out.println(list);
-
     }
 }
 

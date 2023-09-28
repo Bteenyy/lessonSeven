@@ -18,7 +18,7 @@ public class ArrayDequeClass {
     }
 
     public static void removeQueue(int a) {
-       queue.remove(a);
+        queue.remove(a);
     }
 
     public static void main(String[] args) {
@@ -33,8 +33,9 @@ public class ArrayDequeClass {
         removeQueue(3);
         removeQueue(9);
         removeQueue(1);
-        System.out.println(queue);
-
+        for (int num : queue) {
+            System.out.print(num + ", ");
+        }
     }
 }
 

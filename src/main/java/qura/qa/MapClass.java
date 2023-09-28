@@ -23,8 +23,10 @@ public class MapClass {
 
     public static void main(String[] args) {
         //добавление элементов в коллекцию через цикл
-        for (int i = 0; i < 10; i++) {
-            addMap(i, " world");
+        int i = 0;
+        while (i < 10) {
+            addMap(i, "world");
+            i++;
         }
         //поиск элемента в коллекции
         findElementInMap(1);//элемент присутствует

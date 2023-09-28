@@ -18,14 +18,16 @@ public class SetClass {
     }
 
     public static void removeSet(int a) {
-     set.remove(a);
+        set.remove(a);
     }
 
     public static void main(String[] args) {
         //добавление элементов в коллекцию через цикл
-        for (int i = 0; i < 10; i++) {
+        int i = 0;
+        do {
             addSet(i);
-        }
+            i++;
+        } while (i < 10);
         //поиск элемента в коллекции
         findElementInSet(3);//элемент присутствует
         findElementInSet(12);//элемент который отсутствует
